@@ -4,13 +4,27 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  font-size: 24px;
+  line-height: 2em;
 }
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+}
+
+em {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
