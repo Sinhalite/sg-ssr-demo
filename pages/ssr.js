@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Ssr({ random }) {
   return (
@@ -11,19 +11,19 @@ export default function Ssr({ random }) {
 
       <p>
         SSRで生成されたページです。
-        <br/>
+        <br />
         <em>{random}</em>
       </p>
     </div>
-  )
+  );
 }
 
 export async function getServerSideProps() {
-  const random = Math.floor( Math.random() * 100 );
+  const random = Math.floor(Math.random() * 100);
 
   return {
     props: {
       random,
     },
-  }
+  };
 }

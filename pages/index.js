@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -12,12 +11,12 @@ export default function Home() {
 
       <ul>
         <li>
-          <Link href='sg'>SG</Link>
+          <a href="sg">SG</a>
         </li>
         <li>
-          <Link href='ssr'>SSR</Link>
+          <a href="ssr">SSR</a>
         </li>
       </ul>
     </div>
-  )
+  );
 }
